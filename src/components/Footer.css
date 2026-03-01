@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.footer {
+    background: #ffb36b;
+    padding: 30px 150px;
+    font-family: 'Montserrat Alternates', sans-serif;
+  }
+  
+.footer-inner {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+  
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+}
+  
+.logo-text {
+    font-size: 26px;
+    font-weight: 700;
+    
+}
+  
+.footer-logo span {
+    font-size: 14px;
+}
+  
+.footer-block h4 {
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 500;
+}
+  
+.footer-block p {
+    font-size: 13px;
+    line-height: 1.4;
+    font-weight: 500;
+}
+  
+.socials {
+    display: flex;
+    gap: 14px;
+}
+  
+.socials img {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+  
